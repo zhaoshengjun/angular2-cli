@@ -74,3 +74,30 @@ Options | Alias | Default |  Description  | Notes
 `--classic` | `-c` | `false` |   |
 `--dummy` | `-dum`, `-id` | `false`  |  |
 `--in-repo-addon` | `--in-repo`, `-ir` |   |  | 
+
+## ng serve
+
+Builds and serves your app, rebuilding on file changes.
+
+###syntax
+
+    ng serve [options]
+    ng s [options]
+   
+### options
+Options | Alias | Default |  Description  | Notes
+--- | --- | --- | --- | --- |
+`--port` | `-p` | 4200 |  Define the port of the website. |
+`--host` | `-H`|  `localhost` | Define the host name | 
+`--proxy` | `-pr`, `-pxy` |  | Define the proxy  |   
+`--insecure-proxy` | `--inspr` | `false` |  Set the proxy self-signed SSL certificates |
+`--watcher` | `-w` | `events`  | Set watcher mode |
+`--live-reload` | `-lr` | true  | Set if use live-reloading feature | 
+`--live-reload-host` | `-lrh` | `localhost`  | Set live-reloading host | 
+`--live-reload-base-url` | `-lrbu` |  baseURL | Set live-reloading base url | 
+`--live-reload-port` | `-lrp` | 49152  | Set live-reloading port | 
+`--environment` | `-e` | `development`  | Set environment variable | use `-dev` for development,`prod` for production 
+`--output-path` | `-op`,`-out` | `dist`  | Set output folder path when in production mode | 
+`--ssl` |  | `false`  | Set if use SSL | 
+`--ssl-key` |  | `ssl/server.key`  | Set SSL key path | 
+`--ssl-cert` |  | `ssl/server.crt`  | Set SSL certification path | 
