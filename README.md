@@ -101,3 +101,29 @@ Options | Alias | Default |  Description  | Notes
 `--ssl` |  | `false`  | Set if use SSL | 
 `--ssl-key` |  | `ssl/server.key`  | Set SSL key path | 
 `--ssl-cert` |  | `ssl/server.crt`  | Set SSL certification path | 
+
+## ng test
+
+Runs your app's test suite.
+
+###syntax
+
+    ng test [options]
+    ng t [options]
+   
+### options
+Options | Alias | Default |  Description  | Notes
+--- | --- | --- | --- | --- |
+`--environment` | `-e` | test |  Set the environment variable. |
+`--config-file` | `-c`, `-cf`|   | Specify the test configuration file | 
+`--server` | `-s` | `false` |  Set the server | Not working yet  
+`--host` | `-H` |  |  Set the host name |
+`--test-port` | `-tp` | 7357 |  Set the port number when running with server |
+`--module` | `-m` |  |  Specify the test module to run |
+`--watcher` | `-w` | `events`  | Set watcher mode |
+`--launch` |  | `false`  | Set the browsers to use for launching tests | 
+`--reporter` | `-r` | `tap`  | Specify the test reporter to use | available values: tap, dot, xunit 
+`--silent` |  | `false`  | Suppress any output except for the test report | 
+`--test-page` |  |   | Set the test page to invoke | 
+`--path` |  |   | Reuse an existing build at given path | 
+`--query` |  |   | A query string to append to the test page URL | 
