@@ -127,3 +127,16 @@ Options | Alias | Default |  Description  | Notes
 `--test-page` |  |   | Set the test page to invoke | 
 `--path` |  |   | Reuse an existing build at given path | 
 `--query` |  |   | A query string to append to the test page URL | 
+
+##ng lint
+
+  Lints code in existing project
+
+###Syntax
+
+    ng lint
+
+###Note
+
+This will use `tslint.json` file as configration file to lint the code.
+
