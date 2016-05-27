@@ -140,3 +140,20 @@ Options | Alias | Default |  Description  | Notes
 
 This will use `tslint.json` file as configration file to lint the code.
 
+## ng build
+
+Builds your app and places it into the output path (dist/ by default).
+
+###syntax
+
+    ng build [options]
+    ng b [options]
+   
+### options
+Options | Alias | Default |  Description  | Notes
+--- | --- | --- | --- | --- |
+`--environment` | `-e`, `-dev`, `-prod` | development |  Set the environment variable. |
+`--ourput-path` | `-o`| `dist/`  | Specify the output folder | 
+`--watch` | `-w` | `false`  | Use watching mode |
+`--watcher` |  |   | Specify watcher name |
+`--suppress-sizes` |  | `false`  | Suppress file sizes |
