@@ -157,3 +157,12 @@ Options | Alias | Default |  Description  | Notes
 `--watch` | `-w` | `false`  | Use watching mode |
 `--watcher` |  |   | Specify watcher name |
 `--suppress-sizes` |  | `false`  | Suppress file sizes |
+
+##ng e2e
+
+    Run e2e tests in existing project
+
+###Syntax
+
+    ng e2e
+
