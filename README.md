@@ -166,3 +166,10 @@ Options | Alias | Default |  Description  | Notes
 
     ng e2e
 
+##ng doc
+
+     Opens the official Angular documentation for a given keyword (on [angular.io](https://angular.io) webiste).
+
+###Syntax
+
+    ng doc <keyword>
