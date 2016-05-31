@@ -173,3 +173,11 @@ Options | Alias | Default |  Description  | Notes
 ###Syntax
 
     ng doc <keyword>
+
+##ng format
+
+      Formats code in existing project
+
+###Syntax
+
+    ng format
