@@ -158,6 +158,25 @@ Options | Alias | Default |  Description  | Notes
 `--watcher` |  |   | Specify watcher name |
 `--suppress-sizes` |  | `false`  | Suppress file sizes |
 
+## ng github-pages:deploy
+
+Build the test app for production, commit it into a git branch, setup GitHub repo and push to it.
+
+###syntax
+
+    ng github-pages:deploy [options]
+    ng gh-pages:deploy [options]
+   
+### options
+Options | Alias | Default |  Description  | Notes
+--- | --- | --- | --- | --- |
+`--message` |  | `new gh-pages version` |  The commit message to include with the build, must be wrapped in quotes. |
+`--environment` | | `production`  | The Angular environment to create a build for | 
+`--branch` |  | `gh-pages`  | The git branch to push your pages to |
+`--skip-build` |  | `false`  | Skip building the project before deploying |
+`--gh-token` |  |  | Github token |
+`--gh-username` |  |  | Github user name |
+
 ##ng e2e
 
     Run e2e tests in existing project
