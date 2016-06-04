@@ -200,3 +200,18 @@ Options | Alias | Default |  Description  | Notes
 ###Syntax
 
     ng format
+
+##ng version
+
+      Outputs angular-cli version
+
+###Syntax
+
+    ng version [options]
+    ng v [options]
+    ng -v [options]
+
+### options
+Options | Alias | Default |  Description  | Notes
+--- | --- | --- | --- | --- |
+`--verbose` |  | `false` |  Output detail information |    
